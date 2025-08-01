@@ -5,11 +5,7 @@ class Solution:
         row_dicts=[{} for _ in range(9)]
         col_dicts=[{} for _ in range(9)]
         box_dicts=[{} for _ in range(9)]
-        
-        i=0
-        j=0
-
-        
+             
         for i in range(0,9): 
             for j in range(0,9):
                 if board[i][j]==".":
